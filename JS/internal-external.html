@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title> Internal &amp; External Javascript </title>
+        
+        <!--Normalize.css -->
+        <link rel="stylesheet" type="text/css" href="normalize.css">
+        
+        <!--[if IE]>
+<script src="http://htmlshim.googlecode.com/svn/trunk/html.js"></script>
+       <![endif]-->
+    </head>
+    
+    <body>
+        <div id="container">
+            
+            <h1>Internal &amp; External Javascript</h1>
+            
+            <p id="output"></p>
+            
+        </div>
+        
+        <!-- JAVASCRIPT ALWAYS LOADS LAST -->
+        
+        <!-- Internal Javascript -->
+        
+        <script type="text/javascript">
+            document.getElementById("output").innerHTML = "This text was created by Internal Javascript";
+        </script>
+        
+        <!-- External Javascript -->
+        
+        <script type="text/javascript" src="internal-external.js"></script>
+    </body>
+</html>

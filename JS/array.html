@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title> Arrays Javascript </title>
+        
+        <!--Normalize.css -->
+        <link rel="stylesheet" type="text/css" href="normalize.css">
+        
+        <!--[if IE]>
+<script src="http://htmlshim.googlecode.com/svn/trunk/html.js"></script>
+       <![endif]-->
+       
+    </head>
+    
+    <body>
+       
+       <h1>Arrays JavaScript</h1>
+       
+       <script type="text/javascript">
+           
+            var myVar = "Electrical, Mechanical, Civil, MIT, Chemical";
+           document.write (myVar);
+           document.write ("<br><br>");
+           
+           var myArray = ["Electrical", "Mechanical", "Civil", "MIT",  "Chemical"];
+           document.write (myArray [0]);
+           document.write ("<br><br>");
+           
+           //document.write (myArray [4]);
+           //document.write ("<br><br>");
+           
+           var departments = ["Electrical", "Mechanical", "Civil", "MIT", "Chemical"];
+           
+           for(var i = 0; departments.length; i++) {
+               document.write(departments [i]);
+                document.write ("<br><br>");
+           }
+           
+           var students = [
+               ["kithinji", "Electrical", 3],
+               
+               ["muriungi", "Mechanical", 5],
+               ["Alex", "Computer", 4]
+           ];
+           
+           document.write(students[0][1]);
+        
+       </script>
+    </body>
+</html>
+
+
