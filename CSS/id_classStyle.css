@@ -1,0 +1,44 @@
+body{
+    background-color: gray;
+    color: #333;
+}
+
+body#id-class-page{ /* Body tag with a specific ID. This overrides the general body tag */
+    background-color: white;
+    font-size: 18px;
+}
+
+h1{ /* This is a general tag and therefore it's applicable to all H1 tags without specific ID or Class */
+    font-size: 50px;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+h1#level-one{/* H1 with a specific ID. This overrides the general H1 tag */
+    color: #fc3;
+    background: gray;
+    padding: 10px;
+    margin: 10px;
+    font-size: 18px;
+}
+
+#level-one{/* This is the ID in which it is selected. The importance of labelling it this way unlike the other style of including H1 is that even if H1 is replaced with <div> the ID still functions. */
+    color: #fc3;
+    background: gray;
+    padding: 10px;
+    margin: 10px;
+    font-size: 18px;
+}
+h2{
+    font-size: 30px;
+    font-family: Georgia, Times, serif;
+}
+
+.levelClass{
+    color: olive;
+    border: solid 2px pink;
+    padding: 40px 20px 10px;
+    text-align: center;
+    font-size: 1em;
+    font-weight: normal;
+}

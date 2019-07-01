@@ -1,0 +1,74 @@
+body#colours {
+    background: rgba (25,52,84,1);
+    color: black;
+}
+
+#colours #container {
+    width: 680px;
+    margin: 0 auto;
+    padding: 40px;
+    box-sizing: border-box;
+    background: rgba(255,255,255,0.1)
+}
+
+#colours #box1 {
+    background: red;
+    height: 200px;
+    width: 200px;
+    margin: 40px auto;
+    padding: 50px;
+    box-sizing: border-box;
+    background: linear-gradient(to left, green, blue);
+}
+
+#colours #box2 {
+    background: red;
+    height: 200px;
+    width: 200px;
+    margin: 40px auto;
+    padding: 50px;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom right, green, blue);
+}
+
+#colours #box3 {
+    background: red;
+    height: 200px;
+    width: 200px;
+    margin: 40px auto;
+    padding: 50px;
+    box-sizing: border-box;
+    background: linear-gradient(16deg, black, white);
+}
+
+#colours #box4 {
+    background: red;
+    height: 200px;
+    width: 200px;
+    margin: 40px auto;
+    padding: 50px;
+    box-sizing: border-box;
+    background: radial-gradient(white, black);
+}
+
+#colours #box5 {
+    background: red;
+    height: 200px;
+    width: 200px;
+    margin: 40px auto;
+    padding: 50px;
+    box-sizing: border-box;
+    background: radial-gradient(red, green,blue);
+}
+
+
+
+
+
+
+
+
+
+
+
+

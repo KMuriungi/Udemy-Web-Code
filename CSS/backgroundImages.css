@@ -1,0 +1,23 @@
+.background-images {
+    height: 600px;
+    width: 600px;
+    border: dashed 4px black;
+}
+
+#background1 {
+    background-image: url('Images/c5.PNG');
+}
+
+#background2 {
+    background-color: #ccc;
+}
+
+#background3 {
+    background-image: url('Images/c6.PNG');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#background4 {
+    background: url('Images/c7.PNG') bottom left repeat-y;
+}

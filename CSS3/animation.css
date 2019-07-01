@@ -1,0 +1,78 @@
+#box1, #box2, #box3, #box4 {
+    background: red;
+    height: 200px;
+    width: 200px;
+    margin: 40px auto;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+@keyframes animateBox {
+    from { background-color: red; }
+    to { background-color: black; }
+}
+
+#animations #box1 {
+    animation-name: animateBox;
+    animation-duration: 10s;
+}
+
+@keyframes animateBoxBorder {
+    from { border-radius: 40px; }
+    to { border-radius: 100px; }
+}
+
+#animations #box2 {
+    animation-name: animateBoxBorder;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+}
+
+@keyframes animate {
+    from { background-color: red;
+        border-radius: 40px;
+    }
+    to { background-color: black;
+        border-radius: 100px; 
+    }
+}
+
+#animations #box3 {
+    animation-name: animate;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: 3;
+    animation-direction: reverse;
+}
+
+@keyframes animatePos {
+    from { background-color: green;
+        border-radius: 40px;
+        top: 0;
+        left: 0;
+    }
+    to { background-color: blue;
+        border-radius: 100px; 
+        top: 0;
+        right: 300px;
+    }
+}
+
+#animations #box4 {
+    position: relative;
+    animation-name: animatePos;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 3s;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+    
+    /*shor-hand*
+    animation: animatePos 10s ease-in-out 2s 3 alternate;
+        */
+}
+
+
+

@@ -1,0 +1,67 @@
+#box1, #box2, #box3, #box4 {
+    background: blue;
+    color: white;
+    height: 100px;
+    width: 100px;
+}
+
+#box1:hover {
+    background: green;
+    width: 200px;
+    height: 200px;
+}
+
+#box2:hover {
+    background: green;
+    width: 200px;
+    height: 200px;
+    transform: all 5s;
+}
+
+#box3:hover {
+    background: green;
+    width: 200px;
+    height: 200px;
+    transform: all 5s;
+}
+
+#box4:hover {
+    background: green;
+    width: 200px;
+    height: 200px;
+    transition-timing-function: ease-in;
+    transform: all 5s;
+    
+    /*
+        transform: width 8s, height 2s, background 20s; 
+    */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,55 @@
+#stylingLinks {
+    background: #333;
+    text-align: center;
+}
+
+#stylingLinks #container {
+    background: white;
+    text-align: center;
+    width: 640px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+a {
+    display: inline-block;
+}
+
+/* UnVisited */
+a:link {
+    color: #fc3;
+}
+
+/* Visited */
+a:visited {
+    color: #fc3;
+}
+
+/* Hover / Mouse-Over*/
+a:hover {
+    color: green;
+}
+
+/* Active / Mouse-down */
+a:active{
+    color:black;
+}
+
+a.links:link {
+    background: #333;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a.links:hover {
+    background: #fc3;
+    color: white;
+}
+
+a.links:active {
+    background: #777;
+}
+
+
+
+

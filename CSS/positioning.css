@@ -1,0 +1,45 @@
+#positioning {
+    background: #1b4;
+    height: 2000px;
+}
+
+#positioning #container {
+    background: white;
+    padding: 20px;
+}
+
+#positioning h2 {
+    font-size: 18px;
+}
+
+.box {
+    background: red;
+    color: white;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    line-height: 200px;
+    text-transform: uppercase;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#relative {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+#absolute {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#fixed {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+}
+

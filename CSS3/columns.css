@@ -1,0 +1,21 @@
+#threeColumns {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    
+    -webkit-column-gap: 40px;
+    -moz-column-gap: 40px;
+    column-gap: 40px;
+    
+    -webkit-column-rule-style: dashed;
+    -moz-column-rule-style: dashed;
+    column-rule-style: dashed;
+    
+    -webkit-column-rule-width: 1px;
+    -moz-column-rule-width: 1px;
+    column-rule-width: 1px;
+    
+    -webkit-column-rule-color: #333;
+    -moz-column-rule-color: #333;
+    column-rule-color: #333;
+}

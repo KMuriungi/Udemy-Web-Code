@@ -1,0 +1,55 @@
+body{
+    background-color: orange;
+    color: #333;
+    text-align: center;
+}
+
+.primaryBox{
+    background-color: white;
+    border: solid  10px #333;
+    padding: 20px;
+}
+
+.primaryBox h2{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.secondaryBox{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.secondaryBox p { 
+    font-size: 14px;
+    font-style: italic;
+}
+
+.secondaryBox p em {
+    color: #fc3fc3;
+}
+
+.secondaryBox em {
+    color: green;
+}
+
+/* Styles for grouping selector */
+
+#main-container { /* Centering the web page content */
+    width: 960px;
+    margin: 0 auto;
+}
+
+.primaryBox, .secondaryBox {
+    margin: 30px, 20px;
+}
+
+.insideBox{
+    border: solid 2px yellow;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    border-bottom: solid 3px red;
+    padding: 0 0 10px;
+}

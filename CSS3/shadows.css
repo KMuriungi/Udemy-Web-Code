@@ -1,0 +1,61 @@
+#shadows #container {
+    width: 680px;
+    margin: 40px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #fc3;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#shadows h1 {
+    color: white;
+    text-shadow: 2px  2px black; /*Hor , Ver , color*/
+    letter-spacing: 3px;
+}
+
+#shadows h2 {
+    color: white;
+    text-shadow: 2px  2px rgba(0,0,0,0.7); /*Hor , Ver , color*/
+    letter-spacing: 3px;
+}
+
+#shadows h3 {
+    color: white;
+    text-shadow: 2px  2px 3px rgba(0,0,0,0.7); /*Hor , Ver , blur , color*/
+    letter-spacing: 3px;
+}
+
+#shadows h4 {
+    color: white;
+    text-shadow: 2px  2px blue, 2px 2px 3px red; /*Hor , Ver , blur , color*/
+    letter-spacing: 3px;
+}
+
+#shadows h5 {
+    color: white;
+    text-shadow: 0  2px 5px blue, 0 2px 10px red; /*Hor , Ver , blur , color*/
+    letter-spacing: 3px;
+}
+
+#box {
+    background: red;
+    height: 200px;
+    width: 200px;
+    margin: 40px auto;
+    padding: 50px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 20px #333; /*Hor, ver, blur, spread, color*/
+}
+
+#box2 {
+    background: red;
+    height: 200px;
+    width: 200px;
+    margin: 40px auto;
+    padding: 50px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 10px -15px #333; /*Hor, ver, blur, spread, color*/
+}
+
+

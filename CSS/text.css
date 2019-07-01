@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+body {
+    padding: 40px;
+    font-family: Georgia, Times, serif;
+    color: #373737;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 10px 0;
+    font-family: Helvetica, Neue, Arial, sans-serif;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 3.6em; /* 3.6 * base font size (which is 18px in our case) */
+}
+
+h2 {
+    font-size: 2.6em;
+}
+
+h3 {
+    font-size: 1.6em;
+    letter-spacing: -1px; /* Can be 'normal' or a numerical value*/
+    text-indent: 80px; /* Can be % or a numerical value. It indents the first line of the paragrapgh*/
+    line-height: 1.3; /* Equivalent of "Double space". it matches the font-size*/
+}
+
+span {
+    text-decoration: line-through;
+}
+
+em{
+    text-transform: capitalize; /*Lowercase, Uppercase, ...*/
+}
+
+strong {
+    text-transform: uppercase;
+    font-weight: bold;
+}
